@@ -111,6 +111,7 @@
     .content {
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
         gap: 10px;
         margin-bottom: 50px;
 
@@ -118,7 +119,13 @@
             gap: 20px;
         }
 
-        .movieCard {
+        .movieCart {
+            width: calc(100% / 2.2);
+
+            @include md {
+                width: calc(100% / 5);
+            }
+
             .posterBlock {
                 margin-bottom: 30px;
             }
