@@ -12,6 +12,6 @@ export default defineConfig({
     },
   },
   paths: {
-    "*": ["*", "*.tsx"],
+    "*": ["*", "*.jsx"],
   },
 });
