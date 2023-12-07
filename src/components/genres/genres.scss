@@ -1,0 +1,21 @@
+@import '../../mixins.scss';
+
+
+.genres {
+    display: none;
+    gap: 5px;
+
+    @include md {
+        display: flex;
+
+    }
+
+    .genre {
+        background-color: var(--pink);
+        padding: 3px 5px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
+        white-space: nowrap;
+    }
+}
